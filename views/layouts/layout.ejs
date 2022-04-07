@@ -7,10 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    Before
-    <br>
+    <%- include('../partials/header.ejs') %>    <!-- includes the header part where we can navigate to different routes using include() -->
+    <%- include('../partials/errorMessage.ejs') %>    <!-- includes error messages -->
     <%- body %>     <!--imports pages in the views-->
-    <br>
-    After
 </body>
 </html>
